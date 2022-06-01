@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./reset.css">
+	<link rel="stylesheet" href="./style.css">
+	<title>My CV</title>
+</head>
+<body>
+	<div class="container">
+		<header class="header-info">
+			<div class="title-block">
+				<h1>Kolliev Serhii</h1>
+				<p>Future Front-End Developer</p>
+			</div>
+			<div class="userpic"></div>
+		</header>
+		<nav class="navigation">
+			<ul>
+				<li><a href="#">About Me</a></li>
+				<li><a href="#">Code Example</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+		<main class="content-wrapper">
+			<div class="content">
+				<h3>About Me</h3>
+				<h5>A beginner programmer who dreams of working in a large IT company</h5>
+				<h3>Education</h3>
+				<h5>
+					I have been a sailor for a long time. He graduated from the Kherson Maritime College and went to sea several times. But this year I decided to change my life and do what I like. My path to the IT industry began at this school.</h5>
+				<div class="code-example">
+					<h3>Code Example</h3>
+					<pre class="rainbow-code">
+						<code class="rainbow rainbow-code">
+               <span class="orangecolor">function</span> <span class="makeid">makeid(length)</span> {
+       var result           = <span class="words">''</span><span class="orangecolor">;</span>
+       var characters       = <span class="words">'ABCDEFGHIJKLMNOPQRSTUVWXYZ'</span><span>;</span>
+       var charactersLength = characters.length<span>;</span>
+       <span class="orangecolor">for</span> ( var i = 0<span class="orangecolor">;</span> i <span class="orangecolor">&lt;</span> length<span class="orangecolor">;</span> i++ ) {
+	    result += <span class="makeid" >characters.charAt(Math.floor(Math.random</span>() <span class="orangecolor">*</span> 
+		charactersLength))<span class="orangecolor">;</span>
+		}
+		<span class="orangecolor">return</span> result<span class="orangecolor">;</span>
+		}
+						  
+		console.log(makeid(5))<span class="orangecolor">;</span>
+						</code>
+					</pre>
+				</div>
+				<div>
+					<h3 class="myinfo">Contact</h3>
+				</div>
+				<div class="contact">
+					
+						<a href="https://vk.com/eximperitus"> <img src="./img/iconmonstr-vk-1.svg " alt="vk logo" width="50" height="50"></a>
+						<a href="https://t.me/mgla008"> <img src="./img/iconmonstr-telegram-1.svg" alt="telegram logo" width="50" height="50"></a>
+					
+				</div>	
+			</div>
+			<div class="sidebar">
+				<h3>Skills</h3>
+				<ul class="skills">
+					<li> <img src="https://cdn-icons-png.flaticon.com/512/888/888859.png" alt="HTML5 Icon" width="30" height="30"> HTML</li>
+					<li><img src="https://cdn-icons-png.flaticon.com/512/888/888847.png" alt="CSS Icon" width="30" height="30"> CSS</li>
+					<li><img src="https://cdn-icons-png.flaticon.com/512/919/919831.png" alt="SASS Icon" width="30" height="30"> SASS</li>
+					<li><img src="https://www.svgrepo.com/show/349419/javascript.svg" alt="JavaScript Icon" width="30" height="30"> JavaScript</li>
+					<li><img src="https://www.svgrepo.com/show/336258/adobe-photoshop.svg" alt="Adobe Photoshop Icon" width="30" height="30"> Adobe Photoshop</li>
+					<li><img src="https://www.svgrepo.com/show/305659/adobe-illustrator.svg" alt="Adobe Illustrator Logo" width="30" height="30"> Adobe Illustrator</li>
+					<li><img src="https://cdn-icons-png.flaticon.com/512/2111/2111420.png" alt="Git Icon" width="30" height="30"> Git</li>
+				</ul>
+				<h3 class="languages">Languages</h3>
+				<ul class="languages-list">
+					<li><img src="https://www.svgrepo.com/show/248540/ukraine.svg" alt="ukr-logo" width="30" height="30"> Ukrainian (Native) </li>
+					<li><img src="https://www.svgrepo.com/show/248477/russia.svg" alt="rus-logo" width="30" height="30"> Russian (Native) </li>
+					<li><img src="https://cdn-icons-png.flaticon.com/512/299/299688.png" alt="eng-logo" width="30" height="30"> English (Intermediate)</li>
+				</ul>
+			</div>
+			<div>
+
+			</div>
+		</main>
+		<footer class="footer">
+			<ul class="contact-list">
+				<li>  <a href="https://rs.school/js-stage0/"> <img src="./img/rsschoollogo.png" alt="rsschool Logo" width="180" height="70"> </a></li>
+				<li>  <a href="https://github.com/SerhiiKolliev"><img src="./img/iconmonstr-github-1.svg" width="130" height="70" alt="github Logo"></a></li>
+				<li>2022</li>
+			</ul>
+		</footer>
+	</div>
+
+</body>
+</html>
